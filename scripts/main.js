@@ -21,5 +21,6 @@ function setUserName() {
     } else {
       localStorage.setItem("name", myName);
       myHeading.textContent = `欢迎来到我的网站, ${myName}`;
+      
     }
   }
