@@ -1,5 +1,5 @@
 html {
-  font-size: 30px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+  font-size: 40px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
   font-family:
     "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
     background-color: #b4dad9;
@@ -7,12 +7,16 @@ html {
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: #00539f;
+  color: #578f66;
   text-shadow: 3px 3px 1px black;
   text-align: center;
 }
+h2 {text-align: center;
+color: rgb(95, 196, 196);
+font-size: 30px;}
 div {background-color: rgb(231, 232, 219);
-color: black;}
+color: black;
+border: 3px solid #110e0a;}
 body {width: 600px;
   margin: 0 auto;
   background-color: #ff9500;
@@ -21,15 +25,28 @@ body {width: 600px;
   font-size: 40px;
   font-style: normal;
 }
+ul  {margin: 10 auto;
+  color: white;
+  font-size:30px;
+  margin-top:1px;
 
-p,
-li {
-  font-size: 16px;
+  }
+
+p {
+  font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
   text-align: center;
 }
-img {
-  display: block;
-  margin: 0 auto;
+li {ont-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;}
+  img {
+    display: block;
+    margin:10px auto;
+    height:350px;
+}
+
+.test {
+  background-color: salmon;
 }
