@@ -24,3 +24,14 @@ function setUserName() {
       
     }
   }
+  const myImage = document.querySelector("img");
+
+myImage.addEventListener("click", () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "5BF5D140-4747-4ED2-B60A-25D73A708D22_1_201_a.jpeg") {
+    myImage.setAttribute("src", "B4E9B81B-3702-49BC-8535-1FA77DC34D54_1_105_c.jpeg");
+  } else {
+    myImage.setAttribute("src", "5BF5D140-4747-4ED2-B60A-25D73A708D22_1_201_a.jpeg");
+  }
+});
+
