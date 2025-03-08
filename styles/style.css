@@ -4,6 +4,71 @@ html {
     "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
     background-color: #ffffff;
 }
+
+
+.biaoti{
+  padding-bottom: 5px;
+  background: linear-gradient(to right,#e0c3fc 0%, #8ec5fc 100%) no-repeat right bottom;
+  background-size: 0 4px;
+  transition: background-size 1300ms;
+}
+.biaoti{
+  background-position-x: left;
+  background-size: 100% 4px;
+}
+.biaoti {margin-top:20px;
+  font-size:80px;
+   text-align:center;
+   color:#4b779dfc;
+   text-shadow:2px 3px 1px black
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {margin: 20px auto;
+  width: 1200px;
+}
+.list {width:100%px;
+  height:300px;
+  margin-bottom:30px;
+       cursor:pointer;
+       border-radius:20px;
+       transition: all 0.3s;
+  
+}
+.list:hover {
+box-shadow: 2px 3px 10px #aebecc;
+}
+.list-img {height:250px;
+  width:420px;
+  float:left;
+      margin-top:25px}
+.list-img img {height:100%;
+        width:100%;
+        object-fit:cover;
+              }
+        .list-text {float: right;
+          width:730px;
+            padding:20px;}
+     .list-text h2 {
+       font-size:30px;
+       margin-bottom:15px;
+     }
+     .list-text p {
+       font-size:17px;
+       color:#2f5244;
+       line-height:1.5;
+       display:-webkit-box;
+       -webkit-box-orient:vertical;
+       -webkit-line-clamp:10;
+       overflow:hidden;
+     }
+
+
+
 h1 {
   margin: 0;
   padding: 20px 0;
@@ -11,46 +76,13 @@ h1 {
   text-shadow: 3px 3px 1px black;
   text-align: center;
 }
-h2 {text-align: center;
-color: rgb(95, 196, 196);
-font-size: 30px;}
-div {background-color: rgb(231, 232, 219);
-color: black;
-border: 3px solid #110e0a;}
-body {width: 600px;
-  margin: 0 auto;
-  background-color: #eb9f9f8f;
-  padding:  20px 100px 100px;
-  border: 5px solid black;
-  font-size: 40px;
-  font-style:normal;
-}
-ul  {margin: 10 auto;
-  color: white;
-  font-size:30px;
-  margin-top:1px;
 
-  }
-
-p {
-  font-size: 20px;
-  line-height: 2;
-  letter-spacing: 1px;
-  text-align: center;
-}
-li {ont-size: 20px;
-  line-height: 2;
-  letter-spacing: 1px;}
-  img {
-    display: block;
-    margin:10px auto;
-    height:350px;
-}
 
 .test {
   background-color: salmon;
 
 }
+
 
 
 
