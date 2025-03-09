@@ -28,10 +28,10 @@ function setUserName() {
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "5BF5D140-4747-4ED2-B60A-25D73A708D22_1_201_a.jpeg") {
-    myImage.setAttribute("src", "B4E9B81B-3702-49BC-8535-1FA77DC34D54_1_105_c.jpeg");
+  if (mySrc === "64566BD8-68C9-4CA3-9DC9-B67A94D4269F.jpeg") {
+    myImage.setAttribute("src", "47F79361-8EAB-462D-BDD4-DB14B0D292EE_1_201_a.jpeg");
   } else {
-    myImage.setAttribute("src", "5BF5D140-4747-4ED2-B60A-25D73A708D22_1_201_a.jpeg");
+    myImage.setAttribute("src", "64566BD8-68C9-4CA3-9DC9-B67A94D4269F.jpeg");
   }
 });
 
