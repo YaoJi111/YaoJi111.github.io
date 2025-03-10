@@ -4,18 +4,36 @@ html {
     "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
     background-color: #ffffff;
 }
-
-
-.biaoti2{
-  padding-bottom: 5px;
-  background: linear-gradient(to right,#e0c3fc 0%, #8ec5fc 100%) no-repeat right bottom;
-  background-size: 0 4px;
-  transition: background-size 1300ms;
+* {
+  margin: 0;
+  padding: 0;
 }
-.biaoti2{
-  background-position-x: left;
-  background-size: 100% 4px;
+.header,.nav {float :left; width: 100%;  box-sizing: border-box;}
+.header {text-align:center;
+  background-color:#ffffff;
+        padding:20px;}
+.header p {font-size:15px;
+         color:#000000;
+          }
+ .nav {background-color: #934242;}
+ .nav a {color: #ffffff; padding: 20px 20px;  display: inline-block;  font-size: 20px;}
+ .nav :hover {  color: wheat;  text-shadow: 0 0 10px wheat; transition-duration: 200ms;}
+ .nav form {float: right;  padding: 20px 20px;}
+ 
+.biaoti1 {
+  margin: 0;
+  color: #578f66;
+  text-shadow: 3px 3px 1px black;
+  text-align: center;
 }
+.biaoti1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #578f66;
+  text-shadow: 3px 3px 1px black;
+  text-align: center;
+}
+
 .biaoti2 {margin-top:20px;
   font-size:80px;
    text-align:center;
@@ -23,10 +41,18 @@ html {
    text-shadow:2px 3px 1px#ccc;
   }
 
-* {
-  margin: 0;
-  padding: 0;
+.biaoti{
+  padding-bottom: 5px;
+  background: linear-gradient(to right,#e0c3fc 0%, #8ec5fc 100%) no-repeat right bottom;
+  background-size: 0 4px;
+  transition: background-size 1300ms;
 }
+.biaoti{
+  background-position-x: left;
+  background-size: 100% 4px;
+}
+
+
 
 .box {margin: 20px auto;
   width: 1200px;
@@ -50,9 +76,11 @@ box-shadow: 2px 3px 10px #aebecc;
         width:100%;
         object-fit:cover;
         margin-left:10px;    }
+
         .list-text {float: right;
           width:730px;
             padding:20px;}
+
      .list-text h2 {
        font-size:30px;
        margin-bottom:15px;
@@ -66,21 +94,14 @@ box-shadow: 2px 3px 10px #aebecc;
        -webkit-line-clamp:10;
        overflow:hidden;
      }
+     .buchong1 {font-size: 20px;
+      margin-left: 135px;}
+      .buchong1 em {margin:3px;}
+      
 
 
 
-.biaoti1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #578f66;
-  text-shadow: 3px 3px 1px black;
-  text-align: center;
-}
 
-
-.buchong1 {font-size: 20px;
-margin-left: 135px;}
-.buchong1 em {margin:3px;}
 
 
 
@@ -121,8 +142,34 @@ caption {
 }
 .biaoti3 {
  color:#4b779dfc;
- padding:10px 10px;
+ padding:20px 20px;
  font-size:80px;
   text-shadow:3px 3px 1px #ccc;
   text-align:center;
  }
+
+
+
+ .list-video video {margin-top:25px;
+  float:left;
+   object-fit:cover;
+   margin-left:10px;    }
+   
+   .biaoti4 {
+    color:#4b779dfc;
+    padding: 20px 20px;
+    font-size:80px;
+     text-shadow:3px 3px 1px #ccc;
+     text-align:center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 5px;
+      background-color: #abbaba;
+      color: #000;
+      width:100%;
+    }
+    footer p {font-size: 20px;}
+
+    
