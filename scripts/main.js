@@ -28,10 +28,10 @@ function setUserName() {
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "64566BD8-68C9-4CA3-9DC9-B67A94D4269F.jpeg") {
-    myImage.setAttribute("src", "47F79361-8EAB-462D-BDD4-DB14B0D292EE_1_201_a.jpeg");
+  if (mySrc === "../图片视频/64566BD8-68C9-4CA3-9DC9-B67A94D4269F.jpeg") {
+    myImage.setAttribute("src", "../图片视频/47F79361-8EAB-462D-BDD4-DB14B0D292EE_1_201_a.jpeg");
   } else {
-    myImage.setAttribute("src", "64566BD8-68C9-4CA3-9DC9-B67A94D4269F.jpeg");
+    myImage.setAttribute("src", "../图片视频/64566BD8-68C9-4CA3-9DC9-B67A94D4269F.jpegg");
   }
 });
 
