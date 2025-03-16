@@ -34,7 +34,7 @@ padding:30px 35px}
     height: 500px;
 width: 1000px;
 background-color: #ffff;
- border-radius:10px;
+ border-radius:15px;
 display:flex;
     align-items:center;
 padding:40px;
@@ -53,7 +53,7 @@ box-sizing:border-box;}
     background-color:#76d37eb0;
     text-align:center;
     color:#000000;
-    border-radius:10px;
+    border-radius:15px;
     text-decoration:none ;
 }
 .nav a:hover{background-color:#689454;}
@@ -82,4 +82,5 @@ box-sizing:border-box;}
     color:#5c5c5c;
     margin-top:15px;
     line-height:1.6;
+    font-weight:bolder;
 }

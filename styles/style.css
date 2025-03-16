@@ -4,47 +4,58 @@ html {
     "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
     background-color: #ffffff;
 }
+body {background-color:#c6dfc8;}
 * {
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: yaoji;
+  src: url(../字体/B2Hana-Medium.ttf);
+ }
 /*导航栏*/
-.header,.nav {float :left; width: 100%;  box-sizing: border-box;}
-.header {text-align:center;
-  background-color:#ffffff;
-        padding:20px;}
-.header p {font-size:15px;
-         color:#000000;
-          }
- .nav {background-color: #934242;}
- .nav a {color: #ffffff; padding: 20px 20px;  display: inline-block;  font-size: 20px;}
- .nav :hover {  color: wheat;  text-shadow: 0 0 10px wheat; transition-duration: 200ms;}
- .nav form {float: right;  padding: 20px 20px;}
+.header {
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding:15px 8%;
+  background-color:#eef7f2;
+  border-bottom:4px solid #7d7d7d;
+ }
+
+ .nav a {color: #70887d; 
+  margin-right:50px;  
+  display: inline-block;  
+  font-size: 18px; 
+  font-weight:600;
+  text-decoration: none;
+ }
+ .nav .lianjie1 {color: green; font-weight: bolder;}
+ .nav .lianjie2 {color: green; font-weight: bolder;}
+ .nav .lianjie3 {color: green; font-weight: bolder;}
+
+ .nav :hover {  color: rgb(115 208 115);
+     text-shadow: 0 0 10px #77ca6e;
+    transition-duration: 200ms;
+}
+ /*.nav form {float: right;  padding: 20px 20px;}*/
   
  /*HOBBY*/
-.biaoti1 {
-  margin: 0;
-  color: #578f66;
-  text-shadow: 3px 3px 1px black;
-  text-align: center;
-}
-.biaoti1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #578f66;
-  text-shadow: 3px 3px 1px black;
-  text-align: center;
+ .biaoti1 {
+  font-size:25px;
+  color: #70887d;
+  text-shadow: 3px 3px 1px #bebebe;
+ 
 }
 
 .biaoti2 {margin-top:20px;
   font-size:80px;
    text-align:center;
-   color:#4b779dfc;
-   text-shadow:2px 3px 1px#ccc;
+   color:#61ac85;
+   text-shadow:2px 3px 1px#4a4a4a;
   }
 
-h1 {padding-bottom: 3px;
-border-bottom: 3px solid #4b779dfc;}
+h1 {font-family: yaoji;}
 
 
 
@@ -57,10 +68,11 @@ border-bottom: 3px solid #4b779dfc;}
        cursor:pointer;
        border-radius:20px;
        transition: all 0.3s;
+       background-color:#ffffff;
   
 }
 .list:hover {
-box-shadow: 2px 3px 10px #aebecc;
+box-shadow: 2px 3px 10px #000000;
 }
 .list-img {height:250px;
   width:420px;
@@ -145,10 +157,10 @@ caption {
   padding:10px;
 }
 .biaoti3 {
- color:#4b779dfc;
+ color:#61ac85;
  padding:20px 20px;
  font-size:80px;
-  text-shadow:3px 3px 1px #ccc;
+  text-shadow:3px 3px 1px #bebebe;
   text-align:center;
  }
 
@@ -160,10 +172,10 @@ caption {
    margin-left:10px;    }
    
    .biaoti4 {
-    color:#4b779dfc;
+    color:#61ac85;
     padding: 20px 20px;
     font-size:80px;
-     text-shadow:3px 3px 1px #ccc;
+     text-shadow:3px 3px 1px #bebebe;
      text-align:center;
     }
 
@@ -175,5 +187,3 @@ caption {
       width:100%;
     }
     footer p {font-size: 20px;}
-
-    
