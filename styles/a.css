@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: yaoji;
+    src: url(../字体/B2Hana-Medium.ttf);
+   }
+
+body {
+    background-color: #83cbac;;}
+
+.home {
+   
+    margin: auto;
+    width: 1200px;}
+
+.logo h1 {font-size: 55px;
+color: #ffff;
+margin-top:10vh;
+font-family: yaoji;}
+
+.content {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 3vh;
+ margin-bottom: 9vh;}
+
+.nav {display:flex;
+      flex-wrap:wrap;
+      align-content:space-between;
+height: 440px;
+width: 80px;
+background-color: #ffff;
+margin-right: 50px;
+ border-radius:10px;
+padding:30px 35px}
+
+.text {
+    height: 500px;
+width: 1000px;
+background-color: #ffff;
+ border-radius:15px;
+display:flex;
+    align-items:center;
+padding:40px;
+box-sizing:border-box;}
+
+.footer p {
+    color: #ffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.nav a {
+    width:100px;
+    height:90px;
+    display:block;
+    background-color:#83cbac;
+    text-align:center;
+    color:#000000;
+    border-radius:15px;
+    text-decoration:none ;
+}
+.nav a:hover{background-color:#689454;}
+    
+
+.nav a img { height:55px;
+    width:55px;
+    margin-top:8px;}
+
+.nav a span {
+    display:block;
+    font-size:15px;
+
+}
+
+.text img {width:400px;
+          height:420px;}
+
+.text-con {
+    margin-left:40px;
+}
+.text-con h2 {
+    font-size:40px;
+}
+.text-con p {
+    color:#5c5c5c;
+    margin-top:15px;
+    line-height:1.6;
+    font-weight:bolder;
+}
+.text-con h2 {
+    font-family: yaoji;
+}
